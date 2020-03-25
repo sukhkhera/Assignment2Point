@@ -5,6 +5,7 @@ from base import Base
 class Point(Base):
     """ 2D Point """
     """ Added a comment for testing"""
+    """ Added a comment for testing2"""
     __tablename__ = "point"
 
     id = Column(Integer, primary_key=True)
