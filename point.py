@@ -7,6 +7,7 @@ class Point(Base):
     """ Added a comment for testing"""
     """ Added a comment for testing2"""
     """ Added a comment for testing3"""
+    """ Added a comment for testing4"""
     __tablename__ = "point"
 
     id = Column(Integer, primary_key=True)
